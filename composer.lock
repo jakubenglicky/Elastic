@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "dc93145a7ab3389f3ba1c3fab60a1a11",
+    "content-hash": "b5af63beb733f9075ae933b5b766843a",
     "packages": [
         {
             "name": "elasticsearch/elasticsearch",
@@ -948,16 +948,16 @@
         },
         {
             "name": "spameri/elastic-query",
-            "version": "v0.3.0",
+            "version": "v0.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Spameri/ElasticQuery.git",
-                "reference": "2188b9cd3652d12d18db53b16f0222696eb0e5e9"
+                "reference": "9c0eab7419f19ce62c7d9fcfa328442e98b70174"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Spameri/ElasticQuery/zipball/2188b9cd3652d12d18db53b16f0222696eb0e5e9",
-                "reference": "2188b9cd3652d12d18db53b16f0222696eb0e5e9",
+                "url": "https://api.github.com/repos/Spameri/ElasticQuery/zipball/9c0eab7419f19ce62c7d9fcfa328442e98b70174",
+                "reference": "9c0eab7419f19ce62c7d9fcfa328442e98b70174",
                 "shasum": ""
             },
             "require": {
@@ -981,7 +981,7 @@
                 }
             ],
             "description": "Objects instead of arrays for querying to ElasticSearch.",
-            "time": "2019-02-14T01:27:15+00:00"
+            "time": "2019-02-28T15:03:53+00:00"
         },
         {
             "name": "symfony/console",
@@ -1626,7 +1626,8 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=7.1"
+        "php": ">=7.1",
+        "ext-json": "*"
     },
     "platform-dev": []
 }

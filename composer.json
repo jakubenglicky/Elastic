@@ -30,14 +30,15 @@
 	},
 	"require": {
 	  	"php": ">=7.1",
-	  	"nette/di": "v2.4.14",
-	  	"nette/security": "v2.4.3",
-		"spameri/elastic-query": "v0.3.0",
+		"ext-json": "*",
+		"nette/di": "v2.4.14",
+		"nette/security": "v2.4.3",
+		"spameri/elastic-query": "v0.4.0",
 		"elasticsearch/elasticsearch": "^6.0",
-        "kdyby/console": "v2.7.1",
-        "kdyby/datetime-provider": "v1.0.0",
-        "kdyby/monolog": "v1.3.2",
-	  	"tracy/tracy": "v2.5.3"
+		"kdyby/console": "v2.7.1",
+		"kdyby/datetime-provider": "v1.0.0",
+		"kdyby/monolog": "v1.3.2",
+		"tracy/tracy": "v2.5.3"
 	},
 	"require-dev": {
 		"nette/tester": "2.1.0",
