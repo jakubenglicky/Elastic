@@ -31,16 +31,15 @@
 	"require": {
 	  	"php": ">=7.1",
 		"ext-json": "*",
-		"nette/di": "v2.4.14",
-		"nette/security": "v2.4.3",
+		"nette/di": "v2.4.*",
 		"spameri/elastic-query": "v0.4.0",
 		"elasticsearch/elasticsearch": "^6.0",
-		"kdyby/console": "v2.7.1",
-		"kdyby/datetime-provider": "v1.0.0",
-		"kdyby/monolog": "v1.3.2",
-		"tracy/tracy": "v2.5.3"
+		"tracy/tracy": "v2.6.*"
 	},
 	"require-dev": {
+	  	"nette/security": "v2.4.*",
+	  	"kdyby/console": "v2.7.*",
+
 		"nette/tester": "2.1.0",
 		"phpstan/phpstan-shim": "0.11.2",
         "spameri/coding-standard": "dev-master",
